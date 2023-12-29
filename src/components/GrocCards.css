@@ -1,0 +1,81 @@
+
+.col {
+    margin-bottom: 30px;
+   margin-top: 120px;
+  }
+  
+  .card {
+    position: relative;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px rgba(224, 2, 2, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .card-text {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .card-price {
+    font-size: 16px;
+    font-weight: bold;
+    /* color: #007bff; */
+    background-color: red;
+    width: 32%;
+    padding-left: 5px;
+    border-radius: 20px;
+    color:white;
+    margin-bottom: 10px;
+  }
+  
+  .add-to-cart-button {
+    background-color: rgb(168, 114, 13);
+    border: none;
+    padding: 8px 12px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-to-cart-button:hover {
+    background-color:rgb(227, 151, 10);
+  }
+
+.heart{
+  position: absolute; 
+  top: 10px;
+  right: 10px; 
+  color: red;
+  background-color: black;
+  width: 25px;
+  height: 30px;
+  padding: 4px;
+  cursor: pointer;
+}
+  .cart{
+    font: bolder;
+    font-size: larger;
+    margin-left: 3px;
+    font-weight: 700;
+  }

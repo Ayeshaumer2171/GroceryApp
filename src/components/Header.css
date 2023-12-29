@@ -1,0 +1,55 @@
+ .navbar {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    z-index: 1000; 
+    margin-bottom: 10px;
+    background-color: #7FB3D5;
+        padding: 15px 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+  
+  .navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    color: #094f9a;
+  }
+  
+  .nav-link,
+  .nav-dropdown-item {
+    color: #555;
+    font-size: 22px;
+    margin-right: 20px;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover,
+  .nav-dropdown-item:hover {
+    color: #de472f;
+  }
+  
+
+.cart-button {
+  background-color: rgb(120, 8, 111);
+  border: none;
+  padding: 10px 10px; 
+  margin-left: 15px;
+  color: white;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  text-transform: uppercase;
+  letter-spacing: 1px; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+ }
+
+ .cart-button:hover {
+  background-color: #c70793;
+  transform: translateY(-2px);
+ }
+  .hearts{
+  font-size: 30px;
+  color: rgb(168, 9, 9);
+  }
